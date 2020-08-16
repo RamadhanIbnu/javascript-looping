@@ -39,3 +39,53 @@ Setiap iterasi/pengulangan lakukan pengecekan apakah nilai tersebut ganjil atau 
 
 Tampilkan keterangan ganjil dan genap pada sebuah nilai setiap pengulangan*/
 
+for (i=0; i<=20; i++){
+    if(i % 2 == 0){
+        console.log(i+ " adalah nilai genap");
+    }
+    else{
+        console.log(i+ " adalah nilai ganjil");
+    }
+}
+
+/*
+Soal No.4
+
+Tampilkan sebuah Konfirmasi Pop Up kepada user menggunakan confirm();
+
+Berikan teks ‘Apakah anda mau mengulang’ pada box confirm
+
+Jika user memilih ‘OK’ maka program akan terus menampilan pop up yang sama
+
+Jika user memilih ‘Cancel’ maka program akan menampilkan teks ‘Perulangan sudah dilakukan sebanyak
+…(jumlah klik OK yang dilakukan user)*/
+
+let checkUser = true;
+let jmlclick= 0;
+
+while (checkUser){
+    console.log(jmlclick += 1)
+    checkUser = confirm("Apakah anda mau mengulang?");
+}
+alert("Perulangan sudah dilakukan sebanyak " + (jmlclick-1) + " kali" );
+
+/*
+Soal No.5
+Buat sebuah program kuis.
+
+Tampilkan prompt() untuk meminta inputan dari user. Tampilan teks ‘Sebutkan kepanjangan dari nama IB
+(Impact Byte)?’
+
+Lakukan pengecekan apakah jawaban dari user sudah benar
+
+Jika benar, tampilkan alert ‘Selamat jawaban kamu benar’
+
+Jika salah, lakukan pengulangan untuk menampilkan prompt() yg sama hingga jawaban dari user benar*/
+
+
+
+
+
+
+
+
