@@ -82,7 +82,12 @@ Jika benar, tampilkan alert ‘Selamat jawaban kamu benar’
 
 Jika salah, lakukan pengulangan untuk menampilkan prompt() yg sama hingga jawaban dari user benar*/
 
+let tanya;
 
+while(tanya != "Impact Byte"){
+    tanya = prompt("Sebutkan kepanjangan dari nama IB");
+}
+alert("Selamat jawaban kamu benar!");
 
 
 
